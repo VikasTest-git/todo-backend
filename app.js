@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const AuthMiddleware = require("./src/middlewares/AuthMiddleware");
 const { dbInstance, getUserDetails } = require("./src/utills/dbInstance");
-
+ 
 
 const SALT = "NKpNROxvp23DCetoXpgE";
 
